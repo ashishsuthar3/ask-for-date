@@ -1,0 +1,125 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgb(255,240,193),rgb(255,187,0));
+}
+
+#nobtn{
+    position:absolute;
+    margin-left: 150px;
+    margin-top: 30px;
+    transition: 0.5s;
+
+}
+#fixit{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 30px;
+    transition: 0.5s;
+
+}
+
+#yesbtn{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 150 px;
+    margin-right: 150px;
+}
+ 
+.main-text{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: #ffc78a;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.text{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn2{
+    width: 400px;
+    right: 400px;
+    
+   
+    
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn{
+    /* background-color: #017cff; */
+    color: white;
+    font-weight: 600;
+    background: rgb(122, 250, 169);
+    background: linear-gradient(0deg, rgb(70, 23, 146) 0%, rgb(199, 136, 255) 100%);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+
+.btn:hover{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+inset -4px -4px 6px 0 rgba(255,255,255,.2),
+inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.subtitles{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    bottom: 50px;
+    left: 20px;
+    color: rgb(255, 129, 129);
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    display:flex; 
+}
+
+.myVideo{
+mix-blend-mode: screen;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
+
+.last 
